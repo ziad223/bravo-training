@@ -1,0 +1,57 @@
+.team-title{
+    text-align: center;
+}
+.team-title h2{
+    font-size: 35px;
+}
+.team-title .p{
+    color: grey;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 50%;
+    margin: 20px auto;
+}
+.team-content{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.team-content .team{
+    width: 24%;
+    border: 1px solid #eee;
+    padding: 20px;
+}
+.team-content .team > *{
+    margin-bottom: 20px;
+}
+.team-content .team h2{
+    font-size: 22px;
+}
+.team-content .team p{
+    opacity: 0.5;
+    font-size: 18px;
+}
+.team-content .team img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.team-content .team div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.team-content .team .team-icon{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.team-content .team .team-icon:hover{
+    background-color: #0167f3;
+    color: #fff;
+}

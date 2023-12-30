@@ -1,0 +1,173 @@
+.header {
+  display: flex;
+}
+.header-left-one {
+  background-image: url(../../images/hero/slider-bg1.jpg );
+  background-color: #eee;
+  background-color: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 80%;
+  height: 450px;
+  margin-left: -2px;
+
+}
+
+.header-one-text {
+  margin-top: 80px;
+}
+.header-two-text {
+  margin-top: 80px;
+}
+.header-one-text > * {
+  margin-bottom: 20px;
+}
+.header-left-one {
+  padding: 20px;
+}
+.header-left-one h3 {
+  opacity: 0.5;
+  font-size: 25px;
+}
+.header-left-one h2 {
+  font-size: 25px;
+}
+.header-left-one p {
+  width: 50%;
+  opacity: 0.5;
+  font-size: 18px;
+}
+.header-left-one h3 span {
+  opacity: 1;
+  margin-left: 20px;
+  color: #000;
+}
+.header-left-one button {
+  background-color: #0167f3;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 30px;
+}
+.header-two-text > * {
+  margin-bottom: 20px;
+}
+.header-left-two {
+  padding: 20px;
+}
+.header-left-two h3 {
+  opacity: 0.5;
+  font-size: 25px;
+}
+.header-left-two h2 {
+  font-size: 25px;
+}
+.header-left-two p {
+  width: 25%;
+  opacity: 0.5;
+  font-size: 18px;
+}
+.header-left-two h3 span {
+  opacity: 1;
+  margin-left: 20px;
+  color: #000;
+}
+.header-left-two button {
+  background-color: #0167f3;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 30px;
+}
+.header-right-one {
+  background-image: url(../../images//hero/slider-bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  padding: 20px;
+  background-color: #eee;
+}
+.header-right-two {
+  background-color: #081828;
+  color: #000;
+  height: 220px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.header-right-one > * {
+  margin-bottom: 10px;
+}
+.header-right-two > * {
+  margin-bottom: 10px;
+}
+.a > * {
+  margin-bottom: 15px;
+}
+.a {
+  padding-top: 50px;
+  padding-left: 30px;
+}
+.a h3 {
+  opacity: 0.5;
+  font-size: 20px;
+}
+.a h2 {
+  font-size: 25px;
+}
+.a h4 {
+    font-size: 18px;
+    width: 80%;
+    line-height: 1.5;
+}
+.a button {
+    background-color: #0167f3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  @media screen and (max-width : 480px){
+    .header {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-left: 20px;
+    }
+    .header-left-one {
+      background-image: none;
+      margin-bottom: 50px;
+      height: max-content;
+
+    }
+    
+    
+    .header-right-one {
+      background-image: url(../../images//hero/slider-bg2.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 220px;
+      padding: 20px;
+      background-color: #eee;
+      margin-right: 40px;
+    }
+    .header-right-two {
+      background-color: #081828;
+      color: #fff;
+      height: 220px;
+      margin-top: 10px;
+      padding: 10px;
+      margin-right: 40px;
+    }
+
+
+    
+  }

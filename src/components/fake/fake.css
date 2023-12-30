@@ -1,0 +1,136 @@
+.fake {
+  background-color: #eee;
+  padding: 30px;
+}
+.fake-title {
+  text-align: center;
+}
+.fake-title h2 {
+  font-size: 35px;
+}
+.fake-title p {
+  width: 50%;
+  margin: 20px auto;
+  line-height: 1.5;
+  color: grey;
+  font-size: 18px;
+}
+.api-products {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.api-products .product {
+  background-color: #fff;
+  width: 20%;
+  padding: 20px;
+  margin-top: 20px;
+}
+.api-products .product > * {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.api-products .product img {
+  width: 100%;
+  height: 200px;
+  background-color: transparent;
+}
+.api-products .product button {
+  background-color: #0167f3;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+.more {
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.product-details > * {
+  margin-top: 40px;
+}
+
+.product-details .t {
+  color: #0167f3;
+  text-transform: capitalize;
+}
+.product-details h3 {
+  line-height: 1.5;
+}
+.product-details div {
+  display: flex;
+  gap: 10px;
+}
+.star-icon {
+  color: gold;
+}
+.product-details button {
+  padding: 15px;
+  border: none;
+  background-color: #0167f3;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  width: 200px;
+  transition: 0.5s;
+}
+.product-details button:hover {
+  background-color: rgb(223, 153, 25) red;
+}
+.fake-link {
+  margin-top: 20px;
+}
+
+.single-product {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.single-product img {
+  width: 200px;
+}
+.single-product .product h3 {
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 480px) {
+  
+      .fake-title h2 {
+        font-size: 30px;
+      }
+      .fake-title p {
+        width: 90%;
+      }
+      .api-products {
+        flex-direction: column;
+      }
+      .api-products .product {
+        width: 100%;
+        margin-left: -15px;
+      }
+    
+      .fake-link {
+        margin-top: 20px;
+      }
+      .product-details{
+        text-align: center;
+      }
+      
+      .single-product {
+        flex-direction: column;
+      }
+      .single-product img {
+        width: 100%;
+      }
+     
+      
+}

@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: #ccc	;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .logo img {
+  width: 80px;
+  height: 80px;
+}
+.navbar .logo p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar .call {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .call p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar-icon .moon {
+  font-size: 25px;
+  cursor: pointer;
+}
+.navbar-icon .sun {
+  font-size: 25px;
+  cursor: pointer;
+}
+.cart {
+  position: relative;
+}
+.cart-icon {
+  font-size: 25px;
+  cursor: pointer;
+  color: #000;
+}
+.cart span {
+  width: 16px;
+  height: 16px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  right: 2px;
+  top: -12px;
+  color: #fff;
+  text-align: center;
+  padding: 2px;
+  font-size: 15px;
+}
+.Typewriter{
+  color: #0167f3;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 10px 30px;
+  }
+  .navbar .logo p {
+    display: none;
+  }
+  .Typewriter{
+    display: none;
+  }
+}

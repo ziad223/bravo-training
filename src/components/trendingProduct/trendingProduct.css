@@ -1,0 +1,116 @@
+.trending-product{
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+.trending-product-title{
+    text-align: center;
+}
+.trending-product-title h2{
+    font-size: 40px;
+}
+.trending-product-title p {
+    width: 50%;
+    margin: 20px auto;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.trending-product .products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 70px;
+}
+.trending-product .products .product >*{
+    margin-bottom: 20px;
+}
+.trending-product .products .product{
+    width: 22%;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.trending-product .products .product img{
+    width: 100%;
+}
+.trending-product .products .product h4{
+    color: gray;
+}
+.trending-product .products .product h3{
+    color: #0167f3;
+}
+.trending-product .products .product .rate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.trending-product .products .product .star-icon{
+    margin-left: 5px;
+    color: gold;
+}
+
+.trending-product .products .product button{
+    background-color: #0167f3;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 480px){
+    
+    .trending-product-title h2{
+        font-size: 30px;
+    }
+    .trending-product-title p {
+        width: 90%;
+    }
+    .trending-product .products{
+       flex-direction: column;
+    }
+    .trending-product .products .product{
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: -10px;
+    }
+    .trending-product .products .product img{
+        width: 100%;
+    }
+    .trending-product .products .product h4{
+        color: gray;
+    }
+    .trending-product .products .product h3{
+        color: #0167f3;
+    }
+    .trending-product .products .product .rate{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .trending-product .products .product .star-icon{
+        margin-left: 5px;
+        color: gold;
+    }
+    
+    .trending-product .products .product button{
+        background-color: #0167f3;
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        width: 60%;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}

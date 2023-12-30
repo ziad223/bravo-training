@@ -1,0 +1,146 @@
+.cart{
+    display: flex;
+    justify-content: space-around;
+
+}
+.cart-left{
+  width: 65%;
+}
+.no-product{
+    color: red;
+    font-size: 35px;
+}
+.cart-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.cart-product h4{
+    font-size: 18px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.cart-product  img{
+    width: 120px;
+    height:120px;
+}
+.cart-product div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cart-product div h2 {
+    font-size: 18px;
+}
+.cart-product div h3{
+    font-size: 18px;
+}
+.cart-product div button{
+    padding:  7px;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+.cart-product .m{
+    font-size: 18px;
+}
+.remove-product{
+    background-color: red;
+    color: #fff;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.cart-right{
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 25%;
+    position: sticky;
+    top :100px;
+    height: max-content;
+    right: 0;
+}
+.cart-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-right div p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.cart-right > *{
+    margin-bottom: 20px;
+}
+.cart-right button{
+    display: block;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 480px) {
+    .cart{
+        flex-direction: column-reverse;
+    
+    }
+    .cart-left{
+      width: 100%;
+    }
+    .cart-product{
+      flex-direction: column;
+    }
+   
+    .cart-right{
+        width: 90%;
+        background-color: #eeee;
+        margin-bottom: 20px;
+    }
+    .cart-right div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .cart-right div p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .cart-right > *{
+        margin-bottom: 20px;
+    }
+    .cart-right button{
+        display: block;
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+        border: none;
+        background-color: #000;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .no-product{
+        color: red;
+        font-size: 25px;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
